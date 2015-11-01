@@ -46,6 +46,8 @@ public class GraduateStudent extends Student{
 			
 			totalMarks += ((totalMarksForCategory /(counter*100)) * (percentage));
 		}
+		System.out.println("Graduate");
+		System.out.println(totalMarks);
 		setFinalGrade(calculateLetterGrade(totalMarks));
 	}
 

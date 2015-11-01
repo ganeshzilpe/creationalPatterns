@@ -45,8 +45,10 @@ public class UndergraduateStudent extends Student{
 				}
 			}
 			
-			totalMarks += ((totalMarksForCategory /(counter*100)) * (percentage/100));
+			totalMarks += ((totalMarksForCategory /(counter*100)) * (percentage));
 		}
+		System.out.println("Undergraduate");
+		System.out.println(totalMarks);
 		setFinalGrade(calculateLetterGrade(totalMarks));
 	
 		
